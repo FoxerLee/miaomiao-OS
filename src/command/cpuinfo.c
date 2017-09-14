@@ -1,4 +1,4 @@
-/* Compiled by DJGPP */
+
 
 #include <stdio.h>
 #include <sys/time.h>
@@ -183,12 +183,7 @@ int main(int argc, char **argv)
 
             send_recv(BOTH, TASK_SYS, &msg);
 
-            //gettimeofday(&tv_start, NULL);
-#ifdef	MISSING_USLEEP
-            //sleep(1);
-#else
-            //usleep(100000);
-#endif
+            
             tsc_end = rdtsc();
             //gettimeofday(&tv_end, NULL);
             MESSAGE msg2;

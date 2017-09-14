@@ -484,7 +484,8 @@ PRIVATE int help() {
 			"mv        :  Move a file.\n"
 			"ls        :  List all files.\n"
 			"cat       :  Show the content of file.\n"
-			"vi        :  File editor.\n"		
+			"vi        :  File editor.\n"
+			"escape    :  A stupid little game.\n"		
 			"=============================================================================\n");
 	return 0;
 }
